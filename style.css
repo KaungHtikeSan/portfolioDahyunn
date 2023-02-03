@@ -1,0 +1,160 @@
+.body{
+    background-color:antiquewhite ;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    font-size: 1.1rem;
+}
+.navbar ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid yellowgreen;
+}
+.heading{
+    text-align: center;
+}
+#namee{
+    text-align: right;
+}
+h1{
+    font-size: 50px;
+    
+    font-family: 'Lobster', cursive;
+}
+h2{
+    text-align: right;
+}
+
+/* Gallery */
+#gallery44{
+    text-align: center;
+}
+#pictures{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000dc;
+
+}
+#pictures h1{
+    margin: 60px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.gallery img{
+    width: 360px;
+    height: 640px;
+    padding: 5px;
+    margin: 10px;
+}
+.gallery img:hover{
+    background-color: rgb(80, 61, 24);
+    cursor: pointer;
+}
+
+/* ABOUT */
+#abt{
+   
+    text-align: center;
+}
+
+#home{
+    background-image: url('dahyunnn.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;
+  height: 1000px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    height: 100%;
+     align-items: center;
+    margin-bottom: 20px;
+    
+}
+#about h1{
+    color: black;
+    margin: 55px;
+}
+p{
+    font-size: 25px;
+    text-indent: 100px;
+    text-align: justify;
+    letter-spacing: 2px;      
+}
+#abt22{
+    font-size: 25px ;
+}
+
+/* songs */
+#songs{
+    text-align: center;
+    border-radius: 20%;
+}
+.video{
+    padding: 20px;
+    margin: 30px;
+    border: 3px solid black;
+}
+
+.contact1 h3{
+    display: inline;
+    
+    
+}
+
+/* footer */
+.footer{
+    padding: 40px 0;
+    background-color:antiquewhite;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    border-radius: 50%;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+}
+
+ 
